@@ -1,0 +1,358 @@
+#introStripe{
+    background-color:bisque;
+    height: 80px;
+    margin-top: 0%;
+
+}
+
+#logo{
+    display:inline-block;
+    margin-top: 20px;
+
+}
+p{
+  display: inline-block;
+  font-size: x-large;
+}
+
+#logoName{
+   width:80% ;
+   height:50% ;
+  
+}
+
+#navigation{
+    display:inline-block;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.links{
+    font-size:x-large;
+}
+
+.Social-Links{
+  font-size:x-large;
+}
+
+/* a{
+  font-size:x-large;
+} */
+
+#WelcomeBack{
+    display: inline-block;
+    margin-left: 250px;
+    color: crimson;
+}
+
+#concertPhoto{
+    width:100% ;
+    height:750px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    margin-top: 100px;
+    margin-right: 890px;
+    margin-bottom:890px;
+  }
+
+  #companyIntro{
+    color:black;
+    font-size: large;
+    text-align:justify;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:bisque;
+
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    margin-left: 890px;
+    margin-bottom: -17%;
+    
+  }
+
+  #companyIntro1 {
+    color:black;
+    font-size: large;
+    text-align:justify;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:bisque;
+
+  }
+
+  .container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 30px;
+    }
+    
+    .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .image img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .text {
+    text-align: center;
+    padding: 30px;
+    }
+    
+    .text h1 {
+    text-align: left;
+    }
+    
+    .MyBioText {
+    text-align: justify;
+    }
+    
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+    }
+    
+    .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 5px;
+    }
+    
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+    
+    form {
+    display: none;
+    padding: 30px;
+    }
+    
+    form label,
+    form input {
+    display: block;
+    margin-bottom: 10px;
+    }
+    
+    form input[type="submit"] {
+    margin-top: 20px;
+    }
+    
+    #HireUs {
+    display: block;
+    margin: 20px auto;
+    }
+    #hire-us-btn {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      #hire-us-form {
+        display: none;
+        margin-top: 20px;
+      }
+      
+      #hire-us-form label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      #hire-us-form input {
+        display: block;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+      
+      #hire-us-form button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      /* Hire us button and form */
+      #hire-us-btn {
+        display: block;
+        margin: 20px auto;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+      
+      #hire-us-btn:hover {
+        background-color: #0056b3;
+      }
+      
+      
+      .row2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -5px;
+        }
+        
+        .column2 {
+        flex: 50%;
+        max-width: 30%;
+        max-height: 50%;
+        padding: 5px;
+        }
+ 
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    line-height: 2.0;
+    font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container1{
+    max-width: 1170px;
+    background-color: pink;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: disc;
+}
+.footer{
+background-color:bisque;
+padding: 70px 0;
+
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+font-size: 35px;
+color: red;
+text-transform: capitalize;
+margin-bottom: 30px;
+font-weight: 500;
+position: relative;
+background-color: pink;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: gray;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 30px;
+}
+.footer-col ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    color:black;
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: black;
+    padding-left: 10px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 70px;
+    width: 50px;
+    background-color: black;
+    margin:0 25px 25px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 60%;
+    color: black;
+}
+.footer-col .social-links a:hover{
+    color: black;
+    background-color: black;
+}
+
+/*Response*/
+@media(max-width: 767px){
+    .footer-col {
+        width: 30%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col {
+        width: 100%;
+       
+    }
+}
+
+
+
+
+
+
+/* 
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+} */
+
+/* Add a hover effect if you want */
+/* .fa:hover {
+  opacity: 0.7;
+} */
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+/* .fa-facebook {
+  background: #3B5998;
+  color: white;
+} */
+
+/* Twitter */
+/* .fa-twitter {
+  background: #55ACEE;
+  color: white;
+} */

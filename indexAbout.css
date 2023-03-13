@@ -1,8 +1,137 @@
-#MyPotrait{
-    .floatRight:float:right;margin-left:20px)
-    padding: 40px;
-}
-div{
-    display:inline
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
     padding: 30px;
-}
+    }
+    
+    .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .image img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .text {
+    text-align: center;
+    padding: 30px;
+    }
+    
+    .text h1 {
+    text-align: left;
+    }
+    
+    .MyBioText {
+    text-align: justify;
+    }
+    
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+    }
+    
+    .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 5px;
+    }
+    
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+    
+    form {
+    display: none;
+    padding: 30px;
+    }
+    
+    form label,
+    form input {
+    display: block;
+    margin-bottom: 10px;
+    }
+    
+    form input[type="submit"] {
+    margin-top: 20px;
+    }
+    
+    #HireUs {
+    display: block;
+    margin: 20px auto;
+    }
+    #hire-us-btn {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      #hire-us-form {
+        display: none;
+        margin-top: 20px;
+      }
+      
+      #hire-us-form label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      #hire-us-form input {
+        display: block;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+      
+      #hire-us-form button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      /* Hire us button and form */
+      #hire-us-btn {
+        display: block;
+        margin: 20px auto;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+      
+      #hire-us-btn:hover {
+        background-color: #0056b3;
+      }
+      
+      
+      .row2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -5px;
+        }
+        
+        .column2 {
+        flex: 50%;
+        max-width: 30%;
+        max-height: 50%;
+        padding: 5px;
+        }
+ 

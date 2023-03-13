@@ -219,9 +219,9 @@ p{
         }
         
         .column2 {
-        flex: 50%;
+        flex: 90%;
         max-width: 30%;
-        max-height: 50%;
+        max-height: 30%;
         padding: 5px;
         }
  
@@ -363,12 +363,17 @@ background-color: pink;
 
 #pic1{
 margin-left:50%;
+width: 50%;
 }
 
 #pic2{
-  margin-left:55%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #pic3{
-  margin-left:60%;
+  margin-right:50%;
+  width: 50%;
 }
